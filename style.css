@@ -91,7 +91,7 @@ body::before {
   width: auto;
   display: block;
   filter: invert(1);
-  transform: scale(0.67);
+  transform: scale(1);
   transform-origin: left center;
 }
 
