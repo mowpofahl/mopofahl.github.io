@@ -91,6 +91,8 @@ body::before {
   width: auto;
   display: block;
   filter: invert(1);
+  transform: scale(2);
+  transform-origin: left center;
 }
 
 .nav-logo {
