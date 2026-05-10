@@ -820,6 +820,19 @@ section {
   border: 1px solid var(--border);
 }
 
+.dashboard-desktop { display: block; }
+.dashboard-mobile { display: none; }
+
+.dashboard-mobile-label {
+  display: block;
+  margin-top: 0.6rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
 .dashboard-placeholder {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -1108,6 +1121,8 @@ section {
   .takeaways { grid-template-columns: 1fr; }
   .method-row { grid-template-columns: 1fr; gap: 0.35rem; }
   .method-label { padding-top: 0; }
+  .dashboard-desktop { display: none; }
+  .dashboard-mobile { display: block; text-decoration: none; }
 }
 
 @media (max-width: 480px) {
